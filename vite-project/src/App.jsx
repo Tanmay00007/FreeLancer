@@ -1,19 +1,28 @@
 import { useState } from 'react'
-import Navbar from './components/Navbar'
 import Home from './pages/Home'
+import Pricing from './pages/Pricing'
+import Resources from './pages/Resources'
+import {BrowserRouter,Navigate,Routes, Route } from "react-router-dom";
+import SharedLayout from './pages/SharedLayout'
 import Features from './pages/Features'
-import Footer from './components/Footer'
 import Industries from './pages/Industries'
+
 
 function App() {
 
   return (
     <>
-  <Navbar/>
-  <Home/>
-  <Features/>
-  <Industries/>
-  <Footer/>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<SharedLayout />}>
+          <Route index element={<Home/>}></Route>
+        <Route path='/pricing' element={<Pricing />} ></Route>
+        <Route path='/resources' element={<Resources />}> </Route>
+        <Route path='/features' element={<Features />}> </Route>
+        <Route path='/industries' element={<Industries />}> </Route>
+        </Route>
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }
