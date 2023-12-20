@@ -4,6 +4,7 @@ import img from '../assets/img.png'
 import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
 import SmallCards from '../components/SmallCards'
+import Navbar from '../components/Navbar'
 function Home() {
     const cards = [
         {
@@ -64,7 +65,7 @@ function Home() {
     ]
   return (
     <>
-        
+    <Navbar />
 <div class="flex flex-col items-center w-50% bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mt-16 w-30% p-4">
     <div class="flex flex-col  leading-normal w-50%">
     <h2 className='text-white text-xl mt-12 ml-12'>WHY KOUNT</h2>
