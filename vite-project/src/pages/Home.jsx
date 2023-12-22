@@ -251,7 +251,7 @@ We use data-driven decisions, advanced machine learning, and decades of experien
     </div>
       <div class="flex flex-col p-6  text-center text-white rounded-lg   l:p-8 ml-16">
               <h3 class="mb-4 text-2xl font-bold ml-48">Complete Strategy</h3>
-              <p class="font-semibold text-white sm:text-lg dark:text-gray-400 pl-64">You need protection against any threat that could come your way. And we have everything you could possibly need — all in one easy-to-use platform.</p>
+              <p class="font-semibold text-white sm:text-lg  pl-64">You need protection against any threat that could come your way. And we have everything you could possibly need — all in one easy-to-use platform.</p>
           
            
               <ul role="list" class="mb-8 space-y-4  mt-12 ml-64">
