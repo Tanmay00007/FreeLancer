@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
     
-    <div class="flex flex-col items-center w-50% bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mt-16 mb-4 p-4">
+    <div class="flex flex-col items-center w-50% bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700  mb-4 p-4">
     <div class="flex flex-col  leading-normal w-6/12 mt-32 ">
     <h2 className=' text-xl mt-12 ml-12 dark:text-green-600'>EXPLORE KOUNT</h2>
         <h5 class=" text-5xl p-4 ml-8 font-bold tracking-tight text-gray-900 dark:text-white mt-4">Unique Features.</h5>
