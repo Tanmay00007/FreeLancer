@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
     
-    <div class="flex flex-col items-center w-50% bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700  mb-4 p-4">
+    <div class="flex flex-col items-center w-50%  shadow md:flex-row  hover:bg-gray-100  grad  p-4">
     <div class="flex flex-col  leading-normal w-6/12 mt-32 ">
     <h2 className=' text-xl mt-12 ml-12 dark:text-green-600'>EXPLORE KOUNT</h2>
         <h5 class=" text-5xl p-4 ml-8 font-bold tracking-tight text-gray-900 dark:text-white mt-4">Unique Features.</h5>
@@ -35,7 +35,7 @@ function Footer() {
 
 </div>
 
-<footer class="bg-white mt-32">
+<footer class="bg-white  grad text-white">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
@@ -54,8 +54,8 @@ function Footer() {
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                  <h2 class="mb-6 text-lg font-medium text-gray-900 uppercase dark:text-blue-500">Support</h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                  <h2 class="mb-6 text-lg font-medium text-white uppercase dark:text-blue-500">Support</h2>
+                  <ul class="text-white font-medium">
                       <li class="mb-4">
                           <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
                       </li>
@@ -66,7 +66,7 @@ function Footer() {
               </div>
               <div>
                   <h2 class="mb-6 text-lg font-medium text-gray-900 uppercase dark:text-blue-500">Company</h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                  <ul class="text-white  font-medium">
                       <li class="mb-4">
                           <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
                       </li>
@@ -77,7 +77,7 @@ function Footer() {
               </div>
               <div>
                   <h2 class="mb-6 text-lg font-medium text-gray-900 uppercase dark:text-blue-500">Trending</h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                  <ul class="text-white font-medium">
                       <li class="mb-4">
                           <a href="#" class="hover:underline">Privacy Policy</a>
                       </li>

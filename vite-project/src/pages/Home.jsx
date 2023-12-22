@@ -72,7 +72,7 @@ function Home() {
     <div class="flex flex-col  leading-normal w-50%">
     <h2 className='text-white text-xl mt-12 ml-12'>WHY KOUNT</h2>
         <h5 class=" text-5xl p-4 ml-8 font-bold tracking-tight text-gray-900 dark:text-white mt-4">Noteworthy technology acquisitions 2021</h5>
-        <p class=" font-normal text-gray-700 dark:text-gray-400 text-2xl p-12">Are you looking for an industry leader to protect your growing business with the most efficient yet accurate strategy? You’ve found it. Learn more about why Kount is right for you. </p>
+        <p class=" font-normal text-white text-2xl p-12">Are you looking for an industry leader to protect your growing business with the most efficient yet accurate strategy? You’ve found it. Learn more about why Kount is right for you. </p>
         <button className='bg-blue-600 text-white w-36 ml-12 rounded-full p-3 mb-4'>Request a demo</button>
     </div>
     <img class=" w-6/12 rounded-t-lg h-full md:rounded-none md:rounded-s-lg" src="https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg" alt=""/>
