@@ -66,8 +66,8 @@ function Home() {
     ]
   return (
     <>
-<div className='grad'>
-<div class=" relative flex flex-col items-center w-50%  grad rounded-lg shadow md:flex-row  bg-gray-800 mt-16 w-30% p-4 ">
+<div className='bg-gradient-to-r from-black  via-black  to-purple-900 '>
+<div class=" relative flex flex-col items-center w-50%  rounded-lg shadow md:flex-row   mt-16 w-30% p-4 ">
 
     <div class="flex flex-col  leading-normal w-50%">
     <h2 className='text-white text-xl mt-12 ml-12'>WHY KOUNT</h2>
